@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: api-financeira
+  datasource:
+    url: jdbc:postgresql://localhost:5433/financeiro
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+  flyway:
+    enabled: true
